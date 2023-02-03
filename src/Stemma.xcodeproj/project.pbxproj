@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370AF493260F3C6A0071102F /* StemmaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370AF492260F3C6A0071102F /* StemmaApp.swift */; };
+		370AF495260F3C6A0071102F /* StemmaDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370AF494260F3C6A0071102F /* StemmaDocument.swift */; };
+		370AF497260F3C6A0071102F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370AF496260F3C6A0071102F /* ContentView.swift */; };
+		370AF499260F3C6B0071102F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370AF498260F3C6B0071102F /* Assets.xcassets */; };
+		370AF49C260F3C6B0071102F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370AF49B260F3C6B0071102F /* Preview Assets.xcassets */; };
+		370AF4A7260F3CE50071102F /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370AF4A6260F3CE50071102F /* PersonModel.swift */; };
+		370AF4AE260F61C20071102F /* CoupleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370AF4AD260F61C20071102F /* CoupleModel.swift */; };
+		370B1E4B261EFC4D0079E23F /* ChildrenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B1E4A261EFC4D0079E23F /* ChildrenView.swift */; };
+		370E4BF1261B458200FA66B5 /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370E4BF0261B458200FA66B5 /* PersonView.swift */; };
+		370E4BF4261B535400FA66B5 /* AddPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370E4BF3261B535400FA66B5 /* AddPersonView.swift */; };
+		3717F752260F6D32004910D4 /* DocumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3717F751260F6D32004910D4 /* DocumentModel.swift */; };
+		373039E9261083E500998CDE /* DocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373039E8261083E500998CDE /* DocumentsView.swift */; };
+		373039EC261083F100998CDE /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373039EB261083F100998CDE /* ChartsView.swift */; };
+		373039EF2610841200998CDE /* FamilyTreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373039EE2610841200998CDE /* FamilyTreeView.swift */; };
+		373039F32610982800998CDE /* StemmaCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373039F22610982800998CDE /* StemmaCore.swift */; };
+		3793E90326124C51001C9CEE /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793E90226124C51001C9CEE /* Tools.swift */; };
+		3793E90726124D11001C9CEE /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793E90626124D11001C9CEE /* RingView.swift */; };
+		3793E90E26124DF0001C9CEE /* PersonEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3793E90D26124DF0001C9CEE /* PersonEditorView.swift */; };
+		37B5FD842612152E003A2AF2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B5FD832612152E003A2AF2 /* Extensions.swift */; };
+		37BB56AA261069D1005C65EA /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB56A9261069D1005C65EA /* Settings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		370AF48F260F3C6A0071102F /* Stemma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stemma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		370AF492260F3C6A0071102F /* StemmaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StemmaApp.swift; sourceTree = "<group>"; };
+		370AF494260F3C6A0071102F /* StemmaDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StemmaDocument.swift; sourceTree = "<group>"; };
+		370AF496260F3C6A0071102F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		370AF498260F3C6B0071102F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		370AF49B260F3C6B0071102F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		370AF49D260F3C6B0071102F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		370AF49E260F3C6B0071102F /* Stemma.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Stemma.entitlements; sourceTree = "<group>"; };
+		370AF4A6260F3CE50071102F /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		370AF4AD260F61C20071102F /* CoupleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoupleModel.swift; sourceTree = "<group>"; };
+		370B1E4A261EFC4D0079E23F /* ChildrenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildrenView.swift; sourceTree = "<group>"; };
+		370E4BF0261B458200FA66B5 /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		370E4BF3261B535400FA66B5 /* AddPersonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonView.swift; sourceTree = "<group>"; };
+		3717F751260F6D32004910D4 /* DocumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentModel.swift; sourceTree = "<group>"; };
+		373039E8261083E500998CDE /* DocumentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DocumentsView.swift; sourceTree = "<group>"; };
+		373039EB261083F100998CDE /* ChartsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		373039EE2610841200998CDE /* FamilyTreeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyTreeView.swift; sourceTree = "<group>"; };
+		373039F22610982800998CDE /* StemmaCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StemmaCore.swift; sourceTree = "<group>"; };
+		3793E90226124C51001C9CEE /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		3793E90626124D11001C9CEE /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		3793E90D26124DF0001C9CEE /* PersonEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonEditorView.swift; sourceTree = "<group>"; };
+		37B5FD832612152E003A2AF2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		37BB56A9261069D1005C65EA /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		370AF48C260F3C6A0071102F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370AF486260F3C6A0071102F = {
+			isa = PBXGroup;
+			children = (
+				370AF491260F3C6A0071102F /* Stemma */,
+				370AF490260F3C6A0071102F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		370AF490260F3C6A0071102F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370AF48F260F3C6A0071102F /* Stemma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370AF491260F3C6A0071102F /* Stemma */ = {
+			isa = PBXGroup;
+			children = (
+				3793E90526124CAB001C9CEE /* Components */,
+				37B5FD8626121595003A2AF2 /* Extensions */,
+				373039F1261097E700998CDE /* Engine */,
+				370AF4A5260F3CAB0071102F /* Models */,
+				370AF492260F3C6A0071102F /* StemmaApp.swift */,
+				370AF494260F3C6A0071102F /* StemmaDocument.swift */,
+				370AF496260F3C6A0071102F /* ContentView.swift */,
+				373039EE2610841200998CDE /* FamilyTreeView.swift */,
+				373039E8261083E500998CDE /* DocumentsView.swift */,
+				373039EB261083F100998CDE /* ChartsView.swift */,
+				37BB56A9261069D1005C65EA /* Settings.swift */,
+				370AF498260F3C6B0071102F /* Assets.xcassets */,
+				370AF49D260F3C6B0071102F /* Info.plist */,
+				370AF49E260F3C6B0071102F /* Stemma.entitlements */,
+				370AF49A260F3C6B0071102F /* Preview Content */,
+			);
+			path = Stemma;
+			sourceTree = "<group>";
+		};
+		370AF49A260F3C6B0071102F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				370AF49B260F3C6B0071102F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		370AF4A5260F3CAB0071102F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3717F751260F6D32004910D4 /* DocumentModel.swift */,
+				370AF4A6260F3CE50071102F /* PersonModel.swift */,
+				370AF4AD260F61C20071102F /* CoupleModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		373039F1261097E700998CDE /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				373039F22610982800998CDE /* StemmaCore.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		3793E90526124CAB001C9CEE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				370E4BF0261B458200FA66B5 /* PersonView.swift */,
+				370E4BF3261B535400FA66B5 /* AddPersonView.swift */,
+				3793E90D26124DF0001C9CEE /* PersonEditorView.swift */,
+				370B1E4A261EFC4D0079E23F /* ChildrenView.swift */,
+				3793E90626124D11001C9CEE /* RingView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		37B5FD8626121595003A2AF2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				37B5FD832612152E003A2AF2 /* Extensions.swift */,
+				3793E90226124C51001C9CEE /* Tools.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		370AF48E260F3C6A0071102F /* Stemma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370AF4A1260F3C6B0071102F /* Build configuration list for PBXNativeTarget "Stemma" */;
+			buildPhases = (
+				370AF48B260F3C6A0071102F /* Sources */,
+				370AF48C260F3C6A0071102F /* Frameworks */,
+				370AF48D260F3C6A0071102F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Stemma;
+			productName = Stemma;
+			productReference = 370AF48F260F3C6A0071102F /* Stemma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		370AF487260F3C6A0071102F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					370AF48E260F3C6A0071102F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 370AF48A260F3C6A0071102F /* Build configuration list for PBXProject "Stemma" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 370AF486260F3C6A0071102F;
+			productRefGroup = 370AF490260F3C6A0071102F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				370AF48E260F3C6A0071102F /* Stemma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		370AF48D260F3C6A0071102F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370AF49C260F3C6B0071102F /* Preview Assets.xcassets in Resources */,
+				370AF499260F3C6B0071102F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370AF48B260F3C6A0071102F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3793E90726124D11001C9CEE /* RingView.swift in Sources */,
+				370B1E4B261EFC4D0079E23F /* ChildrenView.swift in Sources */,
+				373039F32610982800998CDE /* StemmaCore.swift in Sources */,
+				370AF493260F3C6A0071102F /* StemmaApp.swift in Sources */,
+				370E4BF1261B458200FA66B5 /* PersonView.swift in Sources */,
+				370AF495260F3C6A0071102F /* StemmaDocument.swift in Sources */,
+				373039EC261083F100998CDE /* ChartsView.swift in Sources */,
+				3717F752260F6D32004910D4 /* DocumentModel.swift in Sources */,
+				373039E9261083E500998CDE /* DocumentsView.swift in Sources */,
+				370AF4AE260F61C20071102F /* CoupleModel.swift in Sources */,
+				37B5FD842612152E003A2AF2 /* Extensions.swift in Sources */,
+				37BB56AA261069D1005C65EA /* Settings.swift in Sources */,
+				370AF4A7260F3CE50071102F /* PersonModel.swift in Sources */,
+				373039EF2610841200998CDE /* FamilyTreeView.swift in Sources */,
+				3793E90326124C51001C9CEE /* Tools.swift in Sources */,
+				3793E90E26124DF0001C9CEE /* PersonEditorView.swift in Sources */,
+				370AF497260F3C6A0071102F /* ContentView.swift in Sources */,
+				370E4BF4261B535400FA66B5 /* AddPersonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		370AF49F260F3C6B0071102F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		370AF4A0260F3C6B0071102F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		370AF4A2260F3C6B0071102F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stemma/Stemma.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Stemma/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Stemma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.impello.Stemma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		370AF4A3260F3C6B0071102F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Stemma/Stemma.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Stemma/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Stemma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.impello.Stemma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		370AF48A260F3C6A0071102F /* Build configuration list for PBXProject "Stemma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370AF49F260F3C6B0071102F /* Debug */,
+				370AF4A0260F3C6B0071102F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370AF4A1260F3C6B0071102F /* Build configuration list for PBXNativeTarget "Stemma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370AF4A2260F3C6B0071102F /* Debug */,
+				370AF4A3260F3C6B0071102F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 370AF487260F3C6A0071102F /* Project object */;
+}
